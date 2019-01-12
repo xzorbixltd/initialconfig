@@ -11,6 +11,7 @@ systemctl start network.service
 
 yum -y install nano
 yum -y install perl
+yum -y install wget
 
 # Now we can install cPanel
 
