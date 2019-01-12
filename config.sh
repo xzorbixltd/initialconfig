@@ -1,5 +1,4 @@
-# Hopefully this will configure the servers initially
-# Lets start by disabling the Network Manager & Restarting the network
+#!/bin/bash
 
 systemctl stop NetworkManager.service
 systemctl disable NetworkManager.service
