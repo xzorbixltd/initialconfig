@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Lets disable Network Manager & Restart the Network first
+
 systemctl stop NetworkManager.service
 systemctl disable NetworkManager.service
 systemctl enable network.service
